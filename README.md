@@ -1,0 +1,1 @@
+# localstack-intellij-idea-plugin-public
