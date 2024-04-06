@@ -16,7 +16,7 @@ manage resources in LocalStack directly from their IDE. This plugin supports sev
 and Lambda, with ongoing development to introduce more services in the future. 
 
 Given our small development team, we are unable to add a large number of services quickly. If you find this project 
-helpful, please consider supporting us by purchasing a subscription or making a donation. The plugin operates on a 
+helpful, please consider supporting us by purchasing a subscription or making a [donation](#donations). The plugin operates on a 
 freemium model, offering both free and paid features.
 
 ![test](./images/plugin_general.png)
@@ -80,9 +80,12 @@ The plugin provides support for a range of services, each with its own set of fe
 - Delete Lambda function
 
 ## Troubleshooting
-Encountering issues? Our troubleshooting guide can help you resolve common problems and errors. For additional support, feel free to reach out through our community forums or support channels.
-
-_Image Placeholder for Troubleshooting Tips_
+### Case 1: DNS resolving issues on MacOS
+If you configured the settings correctly but for some reason the following error appears 
+![img.png](./images/troubleshoot/dns_resolving.png)
+that means that is an issue with DNS resolving on you PC. Please add `127.0.0.1` as a DNS server, so that 
+localstack.cloud<http://localstack.cloud/> addresses can be resolved, These are the default endpoints 
+LocalStack / LocalStack Desktop work with.
 
 ## Donations
 Love the LocalStack plugin for IntelliJ IDEA? Consider supporting our project through donations or by purchasing a subscription. Your support helps us maintain and expand the plugin's capabilities, ensuring it meets the community's needs.
