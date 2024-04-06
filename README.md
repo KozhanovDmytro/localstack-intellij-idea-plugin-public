@@ -87,6 +87,6 @@ _Image Placeholder for Troubleshooting Tips_
 ## Donations
 Love the LocalStack plugin for IntelliJ IDEA? Consider supporting our project through donations or by purchasing a subscription. Your support helps us maintain and expand the plugin's capabilities, ensuring it meets the community's needs.
 
-1. [PayPal](#https://www.paypal.com/donate/?hosted_button_id=Y3KMBWW4WVESS)
-2. [BuyMeACoffee](#https://www.buymeacoffee.com/dmytro.kozhanov)
-3. or just [purchase a subscription](#https://plugins.jetbrains.com/plugin/22223-localstack-integrator/pricing#tabs).
+1. [PayPal](https://www.paypal.com/donate/?hosted_button_id=Y3KMBWW4WVESS)
+2. [BuyMeACoffee](https://www.buymeacoffee.com/dmytro.kozhanov)
+3. or just [purchase a subscription](https://plugins.jetbrains.com/plugin/22223-localstack-integrator/pricing#tabs).
