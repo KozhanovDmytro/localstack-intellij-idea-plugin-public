@@ -81,9 +81,9 @@ The plugin provides support for a range of services, each with its own set of fe
 
 ## Troubleshooting
 ### Case 1: DNS resolving issues on MacOS
-If you configured the settings correctly but for some reason the following error appears 
+If you configured the settings correctly but for some reason the following error appears
 
-![img.png](./images/troubleshoot/dns_resolving.png)
+<img alt="img.png" height="120" src="./images/troubleshoot/dns_resolving.png"/>
 
 That's an issue on the LocalStack, to solve this please add the following DNS rules
 to hostname mapping file: 
