@@ -43,29 +43,29 @@ In order to configure these settings please follow the steps:
 The plugin provides support for a range of services, each with its own set of features:
 
 ### SQS
-- Create SQS queue (Standard) 🆓
-- Create SQS queue (FIFO) 🔒
-- Create SQS queue (Advanced) 🔒
-- Get list of queues 🆓
-- View queue attributes 🆓
-- Send message to queue 🆓
-- Receive a message from queue 🆓
-- Receive a message from queue (Recording mode) 🔒
-- Beautify received message (JSON) 🔒
-- Copy received message 🔒
-- Purge queue 🆓
-- Delete queue 🆓
+- Create SQS queue (Standard)
+- Create SQS queue (FIFO)
+- Create SQS queue (Advanced)
+- Get list of queues
+- View queue attributes
+- Send message to queue
+- Receive a message from queue
+- Receive a message from queue (Recording mode)
+- Beautify received message (JSON)
+- Copy received message
+- Purge queue
+- Delete queue
 
 ### S3
-- Create S3 bucket (Simple) 🆓
-- Get list of S3 buckets 🆓
-- Delete S3 bucket 🆓
+- Create S3 bucket (Simple)
+- Get list of S3 buckets
+- Delete S3 bucket
 - Create folders in S3 bucket
 - Navigate through S3 bucket folders
 - Upload objects to S3 buckets
 - Upload folders to S3 buckets
-- Upload objects to S3 buckets from Project View pop-up 🔒
-- Upload folders to S3 buckets from Project View pop-up 🔒
+- Upload objects to S3 buckets from Project View pop-up
+- Upload folders to S3 buckets from Project View pop-up
 - Delete objects from S3 bucket
 - View objects in S3 bucket
 
@@ -83,9 +83,15 @@ The plugin provides support for a range of services, each with its own set of fe
 ### Case 1: DNS resolving issues on MacOS
 If you configured the settings correctly but for some reason the following error appears 
 ![img.png](./images/troubleshoot/dns_resolving.png)
-that means that is an issue with DNS resolving on you PC. Please add `127.0.0.1` as a DNS server, so that 
-localstack.cloud<http://localstack.cloud/> addresses can be resolved, These are the default endpoints 
-LocalStack / LocalStack Desktop work with.
+
+That's an issue on the LocalStack, to solve this please add the following DNS rules
+to hostname mapping file: 
+```
+127.0.0.1 sqs.eu-central-1.localhost.localstack.cloud
+```
+Typically this file located here
+- Windows: `C:\Windows\System32\drivers\etc\drivers`
+- MacOS or Linux: `/etc/hosts`
 
 ## Donations
 Love the LocalStack plugin for IntelliJ IDEA? Consider supporting our project through donations or by purchasing a subscription. Your support helps us maintain and expand the plugin's capabilities, ensuring it meets the community's needs.
