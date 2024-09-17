@@ -120,3 +120,16 @@ If you configured the settings correctly but for some reason the following error
 
 That's an issue on the LocalStack, to solve this please add the following DNS rules
 to hostname mapping file: 
+```
+127.0.0.1 sqs.eu-central-1.localhost.localstack.cloud
+```
+Typically this file located here
+- Windows: `C:\Windows\System32\drivers\etc\drivers`
+- MacOS or Linux: `/etc/hosts`
+
+## Donations
+Love the LocalStack plugin for IntelliJ IDEA? Consider supporting our project through donations or by purchasing a subscription. Your support helps us maintain and expand the plugin's capabilities, ensuring it meets the community's needs.
+
+1. [PayPal](https://www.paypal.com/donate/?hosted_button_id=Y3KMBWW4WVESS)
+2. [BuyMeACoffee](https://www.buymeacoffee.com/dmytro.kozhanov)
+3. or just [purchase a subscription](https://plugins.jetbrains.com/plugin/22223-localstack-integrator/pricing#tabs).
