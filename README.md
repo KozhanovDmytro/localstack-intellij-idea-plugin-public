@@ -127,6 +127,13 @@ Typically this file located here
 - Windows: `C:\Windows\System32\drivers\etc\drivers`
 - MacOS or Linux: `/etc/hosts`
 
+### Case 2: Localstack is not running
+If you see the following message then the localstack is down.
+
+<img alt="img.png" height="120" src="./images/troubleshoot/localstack_down.png"/>
+
+Follow this installation guide to install localstack. https://docs.localstack.cloud/getting-started/installation/
+
 ## Donations
 Love the LocalStack plugin for IntelliJ IDEA? Consider supporting our project through donations or by purchasing a subscription. Your support helps us maintain and expand the plugin's capabilities, ensuring it meets the community's needs.
 
